@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1e1e1e;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Главный фон */
+.app {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom right, #1e1e1e, #2c2c2c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Карточка */
+.card {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 90vw;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Текст */
+.card h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+/* Кнопки */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.buttons button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.buttons button:hover {
+  background-color: #4338ca;
+}
