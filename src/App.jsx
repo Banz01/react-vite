@@ -5,10 +5,10 @@ function App() {
   const [lang, setLang] = useState('en');
 
   const translations = {
-    en: 'Hello, World!',
-    ru: 'Привет, мир!',
-    es: '¡Hola, mundo!',
-    fr: 'Bonjour le monde!',
+    en: 'Բարև աշխարհ!',
+    ru: 'გამარჯობა მსოფლიო',
+    es: 'Hej, världen!',
+    fr: 'Hallo, Welt!',
   };
 
   return (
@@ -16,10 +16,10 @@ function App() {
       <div className="card">
         <h1>{translations[lang]}</h1>
         <div className="buttons">
-          <button onClick={() => setLang('en')}>🇬🇧 EN</button>
-          <button onClick={() => setLang('ru')}>🇷🇺 RU</button>
-          <button onClick={() => setLang('es')}>🇪🇸 ES</button>
-          <button onClick={() => setLang('fr')}>🇫🇷 FR</button>
+          <button onClick={() => setLang('en')}>🇦🇲 ARM</button>
+          <button onClick={() => setLang('ru')}>🇬🇪 GEO</button>
+          <button onClick={() => setLang('es')}>🇩🇪 DE</button>
+          <button onClick={() => setLang('fr')}>🇨🇭 CHE</button>
         </div>
       </div>
     </div>
